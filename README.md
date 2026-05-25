@@ -171,7 +171,7 @@ Estos procedimientos encapsulan la lógica de negocio principal del sistema. Las
 
 ### Relación con vistas del frontend
 
-Aunque el script no define vistas SQL (VIEW), las consultas de negocio incluidas sugieren las siguientes pantallas en el frontend:
+
 
 - **Vista de asistencia por curso:** alimentada por la consulta que agrupa estudiantes y cuenta sus asistencias por nombre de curso.
 - **Panel de faltas:** usa la consulta de `SUM(CASE WHEN estado='Falta')` para mostrar resúmenes al docente o coordinador.
@@ -180,5 +180,3 @@ Aunque el script no define vistas SQL (VIEW), las consultas de negocio incluidas
 - **Módulo de creación de sesión:** invoca `sp_crear_sesion` y genera dinámicamente el código QR y el enlace único para cada clase.
 
 ---
-
-*Documentación generada a partir del script `ASISTEPLUSM3.sql`.*
