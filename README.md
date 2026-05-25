@@ -163,7 +163,7 @@ La tabla `coordinador` almacena la información del personal directivo, pero act
 | `sp_reporte_asistencia` | Consulta el total de asistencias de un estudiante específico y retorna el detalle como resultado |
 | `sp_registrar_asistencia` | Inserta un nuevo registro de asistencia para un estudiante en una sesión dada |
 | `sp_consultar_faltas` | Calcula el total de faltas de un estudiante y retorna el detalle |
-| `sp_crear_sesion` | Crea una nueva sesión de asistencia con el método, código QR y link correspondientes |
+
 
 Estos procedimientos encapsulan la lógica de negocio principal del sistema. Las vistas del frontend (si existen) deberían consumirlos en lugar de ejecutar consultas directas, lo que garantiza seguridad, reutilización y consistencia de los datos.
 
